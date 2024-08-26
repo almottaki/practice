@@ -50,13 +50,3 @@ for x in a:
       b.append(x)
 
 print(b)
-
-
-y = 10
-z = 0
-if (z == 0):
-    print("Cannot divide by zero")
-else:
-    print(y // z)
-
-print("a")
