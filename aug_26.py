@@ -38,7 +38,7 @@ pattern(5)
 
 a = int(input("Enter Range: "))
 for x in range(1, a + 1):
-    for y in range(1, x + 1):
+    for y in range(1, x + 1):               #(nested for loop)
         print(y, end=" ")
     print()
 
@@ -57,7 +57,7 @@ print("Total: ", sum(range(1, a + 1)))
 #                                                       Exercise (4):-
 x = int(input("Enter Number: "))
 for i in range(1, 11):
-    print(f"{x * i}")
+    print(f"{x * i}")               #(f-string)
 
 
 
