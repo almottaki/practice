@@ -39,7 +39,7 @@ print(x)
 
 
 
-#                                                       Exercise (14):-
+#                                                       Exercise (14) Problem :-
 # num = 76542
 # reverse_number = 0
 # while num > 0:
