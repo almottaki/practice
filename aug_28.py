@@ -39,14 +39,20 @@ print(x)
 
 
 
-#                                                       Exercise (14) Problem :-
-# num = 76542
-# reverse_number = 0
-# while num > 0:
-#     reminder = num % 10
-#     reverse_number = (reverse_number * 10) + reminder
-#     num = num // 10
-# print(reverse_number)
+                                                      # Exercise (14):-
+num = 76542
+reverse_number = 0
+while num > 0:
+    reminder = num % 10
+    reverse_number = (reverse_number * 10) + reminder
+    num = num // 10
+print(reverse_number)
+
+
+
+x = 76542
+y = str(x)
+print(y[::-1])
 
 
 
