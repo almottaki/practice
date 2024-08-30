@@ -9,7 +9,7 @@ print(a[x])
 
 a = ("a", "b", "c", "d", "e", "f", "g", "h")
 x = slice(3, 5)
-print(a[x])
+print(a[x])                 #a of x
 
 
 
