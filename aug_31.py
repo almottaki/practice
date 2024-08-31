@@ -1,3 +1,8 @@
+# 15 Common Errors in Python [Done]      #https://betterstack.com/community/guides/scaling-python/python-errors/
+
+
+
+
 #                                                       txt read:-
 f = open("homework.txt")
 a = f.read()
