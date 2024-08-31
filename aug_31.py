@@ -43,3 +43,16 @@ with open("sample.csv", 'r') as f:
   csvreader = csv.reader(f)
   for x in csvreader:
     print(x)
+
+
+
+
+
+#                                                       csv append:-
+from csv import writer
+List = [11, 'abc', 'mottaki', 1, 'UAE', 'xyz', 'this is new row']
+
+with open('sample.csv', 'a') as f:
+    a = writer(f)
+    a.writerow(List)
+    f.close()
