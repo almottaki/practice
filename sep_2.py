@@ -8,9 +8,9 @@ print(a)
 
 
 #                                                       excel write:-
-import xlsxwriter
+import pandas as pd
 
-w = xlsxwriter.Workbook('excel.xls')
+w = pd.Workbook('excel.xls')                          # check
 
 s = w.add_worksheet()
 
